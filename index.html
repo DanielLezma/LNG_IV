@@ -1,25 +1,23 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Color Flipper</title>
-    <style>
-        body {
-            text-align: center;
-            font-family: Arial, sans-serif;
-            margin-top: 20%;
-        }
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-        }
-    </style>
+    <title>Static Server</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
 </head>
 <body>
-    <button id="colorButton">Cambiar Color</button>
-
-    <script src="colorfliper.js"></script>
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <p class="title">
+                Hero Title
+            </p>
+            <p class="subtitle">
+                Hero Subtitle
+            </p>
+            <button class="button is-link" onclick="showAlert()">Click me</button>
+        </div>
+    </section>
+    <script src="app.js"></script>
 </body>
 </html>
